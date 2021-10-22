@@ -4,7 +4,7 @@ library     SeleniumLibrary
 
 *** Test Cases ***
 observe user is able to test sanity flow
-    [Tags]  sanity  regression
+    [Tags]  sanity
     Given User Launch Browser for Flipkart
     when User lands on Homepage Enter MobileNumber and Password
     Click on login 
